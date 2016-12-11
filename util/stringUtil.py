@@ -13,10 +13,14 @@ getBase = lambda number : "{0:#o} {0:#x} {0:#b}".format(number)
 getComma = lambda number : '{:,}'.format(number)
 
 
+def toFraction(number):
+    from fractions import Fraction
+    
+    return Fraction(number).limit_denominator()
 
 
 
 
 #print(getBin(10))
-print(getBase(100))
+# print(getBase(100))
 

@@ -17,3 +17,6 @@ print(factor(x ** 3 + 3 * x ** 2 * y + 3 * x * y ** 2 + y ** 3))
 
 # prime factorization
 print(factorint(64))
+
+
+print(factor(x**2+x-6))

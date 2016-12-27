@@ -7,7 +7,7 @@ from sympy import *
 import numpy as np
 x = Symbol('x')
 y = 3*x**2
-yprime = y.diff(x)
+yprime = y.diff(x)  
 print(yprime)
 
 

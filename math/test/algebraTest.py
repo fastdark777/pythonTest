@@ -39,3 +39,9 @@ print(math.e)
 print(math.log(67, math.e))
 
 print(math.e**4.20  )
+
+# print(299792458*100*1.0/1000000000*1/50000000.0)
+
+val="uda city"
+print(val[1:])
+print(val.find('city'))

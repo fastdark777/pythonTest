@@ -10,10 +10,8 @@ init_printing()
 x = Symbol('x')
 f=Function("f")
 
-#적분 표현
 Integral(f(x))
 
-#적분 하라
 integrate(f(x))
 #a=integrate(x**2 + x + 1, x)
 

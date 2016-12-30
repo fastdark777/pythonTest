@@ -5,7 +5,7 @@ Created on 2016. 12. 28.
 '''
 from sympy import *
 from sympy.abc import delta
-
+ 
 
 x,y=symbols('x,y')
 #f=Function('f')

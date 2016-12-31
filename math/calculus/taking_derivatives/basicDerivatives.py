@@ -12,7 +12,7 @@ print(yprime)
 
 
 f = lambdify(x, yprime, 'numpy')
-# print(f(np.ones(5)))
+print(f(np.ones(5)))
 arr=np.arange(0,5,1)
-print(arr)
-print(f(arr))
+#print(arr)
+#print(f(arr))

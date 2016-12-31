@@ -14,3 +14,10 @@ y=x**2
 Integral(y,(x,1,4))
 
 print(integrate(y, (x,1,4)))
+
+
+## ex2
+integrate(y,(x,pi/2,3*pi/2))
+
+## ex3
+integrate(y,(x,0,3*pi/2))

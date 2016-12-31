@@ -4,10 +4,11 @@ Created on 2016. 12. 11.
 @author: shmoc
 '''
 import math
-from util.stringUtil import toFraction
+
 import matplotlib.pyplot as plt
 from numpy import *
 from numpy import log, sin
+from util.mathUtil import toFraction
 
 
 result=math.log(2,8)

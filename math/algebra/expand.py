@@ -10,4 +10,4 @@ from sympy import Symbol, factor, expand, simplify
 x = Symbol('x')
 y = Symbol('y')
 
-print(expand((x + y) ** 3))
+print(expand((x + y) ** 4))

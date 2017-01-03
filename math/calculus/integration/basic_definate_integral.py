@@ -9,10 +9,10 @@ init_printing()
 x = Symbol('x')
 
 
+##ex 1
 y=x**2
-
 Integral(y,(x,1,4))
-
+print(integrate(y))
 print(integrate(y, (x,1,4)))
 
 

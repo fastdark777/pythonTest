@@ -16,6 +16,6 @@ def get_next_target(page):
     return url, end_quote
                  
 
-#print (get_next_target('<a href="/user/main.do"><strong>M-teletech</strong></a>'))
-print (get_next_target('good'))
+print (get_next_target('<a href="/user/main.do"><strong>M-teletech</strong></a>'))
+#print (get_next_target('good'))
 

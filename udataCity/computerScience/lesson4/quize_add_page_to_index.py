@@ -1,3 +1,5 @@
+
+
 '''
 Created on 2017. 1. 3.
 
@@ -15,6 +17,7 @@ Created on 2017. 1. 3.
 # page content by adding the url to the
 # word's associated url list.
 
+# coding: utf8
 index = []
 
 
@@ -38,12 +41,14 @@ def get_page(url):
     try:
         import urllib.request
         
-        return urllib.request.urlopen(url).read()
+        cont = urllib.request.urlopen(url).read()
+        print(cont)       
     except:
         return ""
      
 
-print(get_page("http://www.naver.com"))
+
+print(get_page("http://www.koreatimes.co.kr/www/index.asp"))
 
 #add_page_to_index(index,'fake.text',"This is a test")
 #print (index)

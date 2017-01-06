@@ -7,7 +7,7 @@ import math
 
 
 from sympy import Symbol, sqrt
-from util.stringUtil import toFraction
+from util.mathUtil import toFraction
 
 
 x = Symbol('x')

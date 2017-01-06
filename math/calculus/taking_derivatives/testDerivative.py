@@ -31,7 +31,7 @@ def chainRule():
     display(dydsinx.doit())
 
 def basicTestWithPlot():        
-    y = x**5
+    y = x**3
 
     dydx=Derivative(y,x)
 #     display(dydx)
@@ -39,19 +39,31 @@ def basicTestWithPlot():
 
     arr=np.arange(-5,6,1)
     
-    #plot f(x)
+    #===========================================================================
+    # plot f(x)
+    #===========================================================================
     f=lambdify(x,y,'numpy')
     plt.subplot(211)
     plt.plot(arr,f(arr))
     
-    #plot f'(x)
+    #annote the point with number
+    for i,j in zip(arr,f(arr)):
+        plt.annotate(str(j),xy=(i,j))
+    
+    #===========================================================================
+    # plot f'(x)
+    #===========================================================================
     fPrime = lambdify(x, dydx.doit(), 'numpy')
     plt.subplot(212)
     plt.plot(arr,fPrime(arr))
+    
+    #annote the point with number
+    for i,j in zip(arr,fPrime(arr)):
+        plt.annotate(str(j),xy=(i,j))
 
     plt.grid(True)  
     plt.show()
 
 
 
-basicTestWithPlot()
+basicTest()

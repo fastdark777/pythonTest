@@ -47,11 +47,11 @@ def lookup(index,keyword):
 add_to_index(index,'udacity','http://udacity.com')
 add_to_index(index,'computing','http://acm.org')
 add_to_index(index,'udacity','http://npr.org')
-# print (index)
+#print (index)
 #>>> [['udacity', ['http://udacity.com', 'http://npr.org']], 
 #>>> ['computing', ['http://acm.org']]]
 
 
-print (lookup(index,'udacity11'))
+print (lookup(index,'udacity'))
 #>>> ['http://udacity.com','http://npr.org']
 

@@ -22,3 +22,13 @@ example
 a=integrate(2*x, x)
 
 print(a)
+
+
+####
+integrate(-sin(x), x)
+
+###
+integrate(24/x**3, x)
+
+###
+integrate(5*exp(x), x)

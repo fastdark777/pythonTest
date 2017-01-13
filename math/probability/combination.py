@@ -3,7 +3,7 @@ Created on 2017. 1. 12.
 
 @author: lsh
 '''
- 
+
 #import scipy.misc.comb
 #import scipy as sc
 #import scipy.misc.comb as co

@@ -42,13 +42,15 @@ def get_page(url):
         import urllib.request
         
         cont = urllib.request.urlopen(url).read()
-        print(cont)       
+        print(cont.decode('euc-kr'))       
     except:
         return ""
      
 
 
-print(get_page("http://www.koreatimes.co.kr/www/index.asp"))
+# print(get_page("http://www.koreatimes.co.kr/www/index.asp"))
+get_page("http://news.naver.com/")
+
 
 #add_page_to_index(index,'fake.text',"This is a test")
 #print (index)

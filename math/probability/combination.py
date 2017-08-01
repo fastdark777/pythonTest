@@ -8,10 +8,27 @@ Created on 2017. 1. 12.
 #import scipy as sc
 #import scipy.misc.comb as co
 
-from scipy.special import comb
-#import scipy.special as sc
 
-n=60
-k=50
+def usingScipy():    
+    from scipy.special import comb
+    from scipy.special import perm
 
-print(comb(n,k))
+    n=3
+    k=2
+    
+    print(comb(n,k))
+    print(perm(n,k))
+
+
+
+def usingIterTools():
+    import itertools  
+    
+    print (list(itertools.combinations([1,2,3], 2)))  
+    print (list(itertools.permutations([1,2,3], 2)))
+    
+    
+
+usingScipy()
+print("################")
+usingIterTools()  
